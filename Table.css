@@ -1,0 +1,28 @@
+.data-table{
+  width: 100%;
+  border: 1px solid black;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+.header{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #eee;
+  color: red;
+}
+
+tr:nth-child(even){
+  background-color: aquamarine;
+}
+
+tbody{
+font-size: 14px;
+
+}
